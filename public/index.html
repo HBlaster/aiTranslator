@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/app.js" defer></script>
+    <link rel="icon" type="image/png" href="./assets/img/translate-icon.png" />
+    <title>Chat de traducciones</title>
+  </head>
+  <body>
+    <header class="chat-header">
+      <img
+        class="header-icon"
+        src="./assets/img/translate-icon.png"
+        alt="Chat de traducciones"
+      />
+      <h1 class="header-title">Chat de traducciones</h1>
+    </header>
+
+    <section class="chat">
+      <div class="chat-messages"></div>
+      <div class="chat-input-group">
+        <input
+          type="text"
+          id="inputText"
+          class="chat-input"
+          placeholder="Escribe tu mensaje..."
+        />
+        <div class="chat-inputs">
+          <select class="chat-select" id="targetLang">
+            <option value="Español">Español</option>
+            <option value="Inglés">Inglés</option>
+            <option value="Francés">Francés</option>
+            <option value="Alemán">Alemán</option>
+          </select>
+          <button class="chat-button" id="translate-button">Traducir</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

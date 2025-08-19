@@ -57,23 +57,19 @@ body {
   font-size: 1.8rem;
   border-radius: 1rem;
   word-wrap: break-word;
-  display: flex;
-  align-items: center;
 }
 .chat-message--user {
-  align-items: flex-end;
   background-color: #007bff;
   color: white;
   text-align: right;
-  justify-content: flex-end;
+  margin-left: auto;
 }
 
 .chat-message--bot {
-  align-items: flex-start;
   background-color: #e9ecef;
   color: #333;
   text-align: left;
-  justify-content: flex-start;
+  margin-right: auto;
 }
 
 .chat-input-group {
